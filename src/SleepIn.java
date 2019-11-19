@@ -4,7 +4,7 @@ public class SleepIn {
 
     static void sleapInInfo() {
 
-        if (DisplayFunc.vacation == true || DisplayFunc.weakday == false) {
+        if (DisplayFunc.vacation || !DisplayFunc.weakday) {
             System.out.println("Спишь");
         }
         else
