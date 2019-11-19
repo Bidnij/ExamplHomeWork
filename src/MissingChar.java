@@ -1,7 +1,7 @@
 public class MissingChar {
-    public static String misingCharResolution(String word, int numbRandThree) {
-        String firstPart = word.substring(0, numbRandThree);
-        String SecondPart = word.substring(numbRandThree + 1);
-        return firstPart + SecondPart;
+    public static void misingCharResolution() {
+        String firstPart = DisplayFunc.word.substring(0, DisplayFunc.numbRandThree);
+        String SecondPart = DisplayFunc.word.substring(DisplayFunc.numbRandThree + 1);
+        System.out.println("Text with missing simbol " + firstPart + SecondPart);
     }
 }
