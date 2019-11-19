@@ -15,7 +15,7 @@ public class DisplayFunc {
     public static final boolean weakday = randomweakday.nextBoolean();
     public static final boolean vacation = randomweakday.nextBoolean();
     public static final String word = "Helloworld";
-    public static final String word2 = "hitext";
+    public static final String word2 = "hitexttext";
     public static final String word3 = "mixtext";
     public static final boolean randBoolOne = number.nextBoolean();
     public static final boolean randBoolTwo = number.nextBoolean();
